@@ -1,9 +1,12 @@
 package Model;
 
 public class Money {
+    
+    private float amount;
+    private Currency currency;
 
-    public Money() {
-        final Number amount;
+    private Money() {
+        final Number amount ;
         final Currency currency;
     }
 
